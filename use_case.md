@@ -1,0 +1,9 @@
+# Use Case: Mental Health Monitoring via Mobile Check-In App
+## Problem Statement: 
+Many patients living with depression, anxiety, or other mood disorders only interact with their therapist or psychiatrist every few weeks or months. This project proposes a cloud-based mental health monitoring system that combines daily mobile check-ins and sleep data from wearables to provide clinicians with a continuous view of how their patients are doing between visits. The goal is not to replace therapy, but to give therapists better visibility into trends, so they can identify high-risk patients earlier, prioritize outreach, and adjust treatment plans when needed.
+## Users:
+...
+## Data Sources:
+...
+## Workflow:
+...
