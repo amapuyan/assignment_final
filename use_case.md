@@ -21,6 +21,21 @@ The system uses several types of data. In this project, all data would be synthe
     - 'energy_level' (ex. low/medium/high or 1-5)
     - 'stress_level'
     - An optional text note ('journal_text')
-2. ...
+2. **Sleep Data from Wearable Device API**
+   - Synced from: wearable vendor API (e.g., simulated Fitbit / Apple Watch data) once per day.
+   - Example fields:
+     - `patient_id`
+     - `date`
+     - `total_sleep_hours`
+     - `sleep_efficiency` (percentage of time in bed actually asleep)
+     - Optional: `time_to_fall_asleep`, `wake_episodes`
+3. **Patient Registry / Panel (Stored in Database)**
+   - Used for: linking mood/sleep records to the right clinician.
+   - Example fields:
+     - `patient_id`
+     - `display_name` (or pseudonym)
+     - `diagnosis_category` (e.g., depression, anxiety)
+     - `clinician_id`
+     - `consent_flag` (whether they opted into remote monitoring)
 ## Workflow:
 ...
